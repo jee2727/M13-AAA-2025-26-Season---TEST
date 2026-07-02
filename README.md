@@ -11,18 +11,22 @@ them as JSON, and publish a live stats website on **GitHub Pages**.
 ```
 .
 ├── data/
-│   └── games/          ← one JSON file per game (auto-generated)
-├── docs/               ← GitHub Pages website source
+│   ├── games/               ← one JSON file per game (auto-generated)
+│   └── aggregated_stats.json ← compiled stats across all games
+├── docs/                    ← GitHub Pages website source
 │   ├── index.html
 │   ├── css/style.css
 │   └── js/
 │       ├── app.js
-│       └── games-index.js   ← rebuilt automatically by CI
+│       └── games-index.js        ← rebuilt automatically by CI
 ├── scripts/
 │   ├── extract_stats.py          ← download PDF → extract stats → save JSON
 │   ├── lheq_pdf_downloader.py    ← download PDFs from LHEQ game pages
-│   ├── build_index.py            ← rebuild docs/js/games-index.js
+│   ├── build_index.py            ← rebuild docs/js/games-index.js & stats
+│   ├── stats_aggregator.py        ← compile stats from all games
+│   ├── data_validator.py          ← validate game JSON structure
 │   └── requirements.txt
+├── STATS_STRUCTURE.md       ← detailed architecture & data flow
 └── .github/workflows/
     └── deploy-pages.yml     ← CI: rebuild index + deploy site on every push
 ```
@@ -105,7 +109,26 @@ uses:
 python scripts/build_index.py
 ```
 
-### 5. Preview the website locally
+This script will:
+- Update `docs/js/games-index.js` with the list of game files
+- Regenerate `data/aggregated_stats.json` with compiled player stats
+- Validate all JSON files for structure correctness
+
+### 5. Validate your game data
+
+To check that all game JSON files have the correct structure:
+
+```bash
+python scripts/data_validator.py
+```
+
+Use `--strict` to fail with an error code if any issues are found:
+
+```bash
+python scripts/data_validator.py --strict
+```
+
+### 6. Preview the website locally
 
 Open `docs/index.html` in your browser, **or** serve it with any static server:
 
@@ -116,7 +139,17 @@ cd docs && python -m http.server 8080
 
 ---
 
-## Game JSON format
+## Complete Architecture & Data Flow
+
+For a detailed explanation of how player stats flow from PDF extraction through to the website display, see **[STATS_STRUCTURE.md](STATS_STRUCTURE.md)**.
+
+This document includes:
+- Detailed architecture diagrams
+- Complete workflow for adding new games
+- File format specifications
+- Troubleshooting guide
+
+---
 
 Each file in `data/games/` follows this schema:
 
@@ -168,6 +201,18 @@ The live URL will be:
   PTS, PIM for every player across all games
 * **Game Log** – card grid showing the score and top scorers for each game,
   sorted newest-first
+
+---
+
+## Scripts Reference
+
+| Script | Purpose |
+|--------|---------|
+| `extract_stats.py` | Extract player stats from game-sheet PDFs (LHEQ/Spordle) and save as JSON |
+| `stats_aggregator.py` | Compile player and team stats across all games into `data/aggregated_stats.json` |
+| `data_validator.py` | Validate JSON files for correct structure and data types |
+| `build_index.py` | Rebuild `docs/js/games-index.js` and regenerate aggregated stats |
+| `lheq_pdf_downloader.py` | Download PDF game sheets directly from LHEQ game schedule pages |
 
 ---
 

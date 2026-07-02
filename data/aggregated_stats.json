@@ -1,0 +1,4116 @@
+{
+  "meta": {
+    "total_games": 7,
+    "total_players": 206,
+    "total_teams": 14
+  },
+  "players": [
+    {
+      "name": "Opp Player X",
+      "team": "Rival Hawks",
+      "number": "9",
+      "gp": 1,
+      "goals": 2,
+      "assists": 1,
+      "points": 3,
+      "pim": 0
+    },
+    {
+      "name": "Sample Player A",
+      "team": "M13 AAA Bears",
+      "number": "11",
+      "gp": 1,
+      "goals": 2,
+      "assists": 1,
+      "points": 3,
+      "pim": 2
+    },
+    {
+      "name": "Sample Player B",
+      "team": "M13 AAA Bears",
+      "number": "17",
+      "gp": 1,
+      "goals": 1,
+      "assists": 2,
+      "points": 3,
+      "pim": 0
+    },
+    {
+      "name": "Sample Player C",
+      "team": "M13 AAA Bears",
+      "number": "22",
+      "gp": 1,
+      "goals": 2,
+      "assists": 0,
+      "points": 2,
+      "pim": 4
+    },
+    {
+      "name": "WILLIAM DUGUAY",
+      "team": "Lévis QC",
+      "number": "13",
+      "gp": 1,
+      "goals": 1,
+      "assists": 1,
+      "points": 2,
+      "pim": 0
+    },
+    {
+      "name": "ALEXY GILEAU",
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "30",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "name": "CHARLES ST-AMAND",
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "1",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "name": "CHARLES-ETIENNE LAROCHE",
+      "team": "Dynamiques CCL",
+      "number": "1",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "name": "CHRISTIAN LEROY",
+      "team": "Lions Black Lac-St-Louis",
+      "number": "7",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "name": "DAYVEN CÔTÉ",
+      "team": "AS Québec",
+      "number": "8",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "name": "DEAN TSANOUSAS",
+      "team": "Lions Black Lac-St-Louis",
+      "number": "29",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 2
+    },
+    {
+      "name": "ELI DESROCHERS",
+      "team": "AL Patros",
+      "number": "1",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "name": "ELLIOT SAVOIE",
+      "team": "Conquérants Basses-Laur",
+      "number": "2",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 3
+    },
+    {
+      "name": "ELOAN DUCHESNE",
+      "team": "Harfangs Sherbrooke",
+      "number": "1",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "name": "GAVIN BLACK",
+      "team": "Lions Black Lac-St-Louis",
+      "number": "23",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 3
+    },
+    {
+      "name": "JAKE KELLY",
+      "team": "Blizzard SDF",
+      "number": "30",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 1
+    },
+    {
+      "name": "JAYCE BAMBERRE",
+      "team": "Harfangs Sherbrooke",
+      "number": "3",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "name": "JOSHUA ZHAO",
+      "team": "Lions Black Lac-St-Louis",
+      "number": "5",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "name": "LAMBERT SIMARD",
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "20",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "name": "LOUIS-FÉLIX GAGNE",
+      "team": "AL Patros",
+      "number": "33",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "name": "LOUIS-PHILIPPE BOUFFARD",
+      "team": "Lévis QC",
+      "number": "4",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "name": "LUISA SOEHL",
+      "team": "National Montreal",
+      "number": "6",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "name": "NICOLAS PROULX",
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "29",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "name": "Opp Player Y",
+      "team": "Rival Hawks",
+      "number": "14",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 2
+    },
+    {
+      "name": "PHILIPPE GOSSELIN",
+      "team": "Harfangs Sherbrooke",
+      "number": "2",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "name": "RAPHAEL MINEAULT",
+      "team": "Intrepide Outaouais",
+      "number": "31",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "name": "RENAUD WILKINS",
+      "team": "National Montreal",
+      "number": "4",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "name": "THOMAS LESSARD",
+      "team": "Lévis QC",
+      "number": "9",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "name": "THOMAS RIVAS-BÉLANGER",
+      "team": "Conquérants Basses-Laur",
+      "number": "1",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "name": "TYLER MAYSON PROULX",
+      "team": "National Montreal",
+      "number": "39",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "name": "WILLIAM CLEARY",
+      "team": "Blizzard SDF",
+      "number": "7",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "name": "WILLIAM FOWLIS",
+      "team": "Harfangs Sherbrooke",
+      "number": "4",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "name": "XAVIER REID",
+      "team": "National Montreal",
+      "number": "30",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "name": "ÉLOI CYR",
+      "team": "AL Patros",
+      "number": "4",
+      "gp": 1,
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "name": "FELIX TURMEL",
+      "team": "Lévis QC",
+      "number": "3",
+      "gp": 1,
+      "goals": 0,
+      "assists": 1,
+      "points": 1,
+      "pim": 1
+    },
+    {
+      "name": "SIMON-OLIVIER CHAREST",
+      "team": "Blizzard SDF",
+      "number": "8",
+      "gp": 1,
+      "goals": 0,
+      "assists": 1,
+      "points": 1,
+      "pim": 2
+    },
+    {
+      "name": "ADAM COMEAU",
+      "team": "Lions Black Lac-St-Louis",
+      "number": "11",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ADAM LAMOUREUX",
+      "team": "National Montreal",
+      "number": "12",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 3
+    },
+    {
+      "name": "ADRIEN CÔTÉ",
+      "team": "Intrepide Outaouais",
+      "number": "45",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 3
+    },
+    {
+      "name": "ALEX COUTURE",
+      "team": "Blizzard SDF",
+      "number": "12",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ALEX-ANTOINE LEMAY",
+      "team": "Lévis QC",
+      "number": "19",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ALEXANDRE ZORKA",
+      "team": "Lions Black Lac-St-Louis",
+      "number": "31",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ALEXIS RHEAUME",
+      "team": "AS Québec",
+      "number": "2",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ALICK DOSTIE",
+      "team": "Dynamiques CCL",
+      "number": "23",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ANGUS FLYNN",
+      "team": "Lions Black Lac-St-Louis",
+      "number": "15",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ANTHONY GARIEPY",
+      "team": "Harfangs Sherbrooke",
+      "number": "9",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ANTOINE DOYON",
+      "team": "Harfangs Sherbrooke",
+      "number": "11",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ANTOINE MORNEAU",
+      "team": "AS Québec",
+      "number": "4",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ARNAUD CHAMBERS-ALAIN",
+      "team": "Lévis QC",
+      "number": "12",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ARTHUR TREMBLAY",
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "21",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "AUGUSTE LEPAGE",
+      "team": "AS Québec",
+      "number": "20",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "BENJAMIN BERTRAND",
+      "team": "Conquérants Basses-Laur",
+      "number": "12",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "BENJAMIN GOLIA",
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "50",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "BENJAMIN RAYMOND",
+      "team": "Intrepide Outaouais",
+      "number": "46",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "BLAKE LINDSAY",
+      "team": "Intrepide Outaouais",
+      "number": "49",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "BRANDO VALENTINO MAMBRO",
+      "team": "National Montreal",
+      "number": "14",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "BRENDAN RONDEAU PRONOVOST",
+      "team": "Conquérants Basses-Laur",
+      "number": "16",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "BRYSEN BYRON",
+      "team": "Dynamiques CCL",
+      "number": "20",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "BÉATRICE MASSE",
+      "team": "Dynamiques CCL",
+      "number": "29",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "CAMPBELL O'CONNOR",
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "13",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "CARTER POIRIER",
+      "team": "Intrepide Outaouais",
+      "number": "51",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 4
+    },
+    {
+      "name": "CHARLES DUVAL",
+      "team": "Lévis QC",
+      "number": "14",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "CHARLES FOURNIER",
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "17",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "CHARLES LABONTE",
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "18",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "CHARLES LEVEILLEE",
+      "team": "AS Québec",
+      "number": "10",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "CHARLES POULIN",
+      "team": "Blizzard SDF",
+      "number": "21",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "CHARLES-ELI BERGERON",
+      "team": "Blizzard SDF",
+      "number": "17",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 3
+    },
+    {
+      "name": "CHARLIE DUMAINE",
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "15",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 3
+    },
+    {
+      "name": "CHRISTOPHE LAJEUNESSE",
+      "team": "Conquérants Basses-Laur",
+      "number": "14",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "CHRISTOPHER MORIN",
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "25",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "DAMIEN GAGNON",
+      "team": "AL Patros",
+      "number": "90",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "DAMIEN PICHÉ",
+      "team": "Intrepide Outaouais",
+      "number": "53",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "DEVEN CHARBONNEAU",
+      "team": "Intrepide Outaouais",
+      "number": "33",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "DWAYNE BINETTE",
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "30",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "DYLAN BRIEN",
+      "team": "Conquérants Basses-Laur",
+      "number": "13",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "DYLAN CARBONE",
+      "team": "National Montreal",
+      "number": "13",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "DYLAN POIRIER",
+      "team": "Harfangs Sherbrooke",
+      "number": "13",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "EDWIN GAUDY",
+      "team": "Blizzard SDF",
+      "number": "10",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ELI FRIGON",
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "4",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ELIE ROSSDEUTSCHER",
+      "team": "Lions Black Lac-St-Louis",
+      "number": "9",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ELIOT GENDRON",
+      "team": "Lévis QC",
+      "number": "8",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ELIOT LAVERDIÈRE-BOUTIN",
+      "team": "AS Québec",
+      "number": "11",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ELIOTT DESCARRIES",
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "2",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ELIOTT LAPOINTE",
+      "team": "Conquérants Basses-Laur",
+      "number": "5",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 1
+    },
+    {
+      "name": "ELLIOT CORMIER",
+      "team": "AS Québec",
+      "number": "1",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ELLIOT POTVIN",
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "4",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 3
+    },
+    {
+      "name": "ELLIOT SIROIS",
+      "team": "AL Patros",
+      "number": "19",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ELLIOT ST-CYR",
+      "team": "Intrepide Outaouais",
+      "number": "54",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ELLIOTT-JAMES BERNIER",
+      "team": "Blizzard SDF",
+      "number": "25",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "EMILE BRIERE",
+      "team": "Blizzard SDF",
+      "number": "9",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ENZO RIVERA MOLDOVAN",
+      "team": "Intrepide Outaouais",
+      "number": "43",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "EVE O'CONNOR",
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "8",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "EZECHIEL CARBONNEAU-FOPA",
+      "team": "Lions Black Lac-St-Louis",
+      "number": "27",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "FELIX NOËL",
+      "team": "Harfangs Sherbrooke",
+      "number": "10",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "FÉLIX GRENIER",
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "65",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "FÉLIX PELLETIER",
+      "team": "AL Patros",
+      "number": "13",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "GABRIEL GUILLEMETTE",
+      "team": "Lévis QC",
+      "number": "11",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "GAVIN GREGOIRE",
+      "team": "Dynamiques CCL",
+      "number": "21",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "HAYDEN PETITCLERC",
+      "team": "AS Québec",
+      "number": "30",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "HUBERT LEMAY",
+      "team": "Lévis QC",
+      "number": "18",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "JACKSON ADAMS",
+      "team": "Dynamiques CCL",
+      "number": "37",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "JACOB LAMBERT",
+      "team": "AS Québec",
+      "number": "3",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "JACOB LOISEAU",
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "12",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "JACOB SIMARD",
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "16",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "JACOB VALIQUETTE",
+      "team": "Conquérants Basses-Laur",
+      "number": "15",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "JAKOB LECLERC",
+      "team": "Dynamiques CCL",
+      "number": "25",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "JAYDEN BERNIER",
+      "team": "Conquérants Basses-Laur",
+      "number": "9",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "JAYDEN PROULX",
+      "team": "Intrepide Outaouais",
+      "number": "42",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 2
+    },
+    {
+      "name": "JAYDEN TOURANGUEAU",
+      "team": "Conquérants Basses-Laur",
+      "number": "7",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "JOE-CHRISTOPHE TREMBLAY",
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "10",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "JORDAN MURRAY",
+      "team": "AL Patros",
+      "number": "71",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "JULES CLOUET",
+      "team": "AS Québec",
+      "number": "5",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "JUN-FENG LIU",
+      "team": "Dynamiques CCL",
+      "number": "34",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "LAMBERT SAUVE",
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "6",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "LAURENT DION",
+      "team": "Dynamiques CCL",
+      "number": "32",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "LIAM BERNARD",
+      "team": "AS Québec",
+      "number": "13",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "LIAM GAGNÉ",
+      "team": "Harfangs Sherbrooke",
+      "number": "6",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "LIAM GARLAND",
+      "team": "Lions Black Lac-St-Louis",
+      "number": "29",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "LIAM NADEAU",
+      "team": "Harfangs Sherbrooke",
+      "number": "5",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "LIAM SUNDERLAND",
+      "team": "AS Québec",
+      "number": "17",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "LOIC BENOIT",
+      "team": "Intrepide Outaouais",
+      "number": "40",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "LOUIS TURCOT",
+      "team": "Dynamiques CCL",
+      "number": "27",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "LOÏC LEVESQUE",
+      "team": "AL Patros",
+      "number": "72",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "LOÏC ROCHON",
+      "team": "AS Québec",
+      "number": "6",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "LUCA IACONO",
+      "team": "National Montreal",
+      "number": "7",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 2
+    },
+    {
+      "name": "LUCAS BÉDARD",
+      "team": "Blizzard SDF",
+      "number": "13",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "LUDOVIC LALONDE",
+      "team": "Dynamiques CCL",
+      "number": "39",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "LUDOVIC SOUCIE",
+      "team": "Lions Black Lac-St-Louis",
+      "number": "19",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "LUDOVICK ROY",
+      "team": "Harfangs Sherbrooke",
+      "number": "7",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "LÉO HUARD",
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "29",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "MAKSIM KOZICH",
+      "team": "Dynamiques CCL",
+      "number": "28",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "MALCOLM CLOUTIER",
+      "team": "Blizzard SDF",
+      "number": "11",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "MALCOM FOURNIER",
+      "team": "Lévis QC",
+      "number": "30",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "MALIK BEAULNE",
+      "team": "Intrepide Outaouais",
+      "number": "48",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "MALIK CASAVANT",
+      "team": "Harfangs Sherbrooke",
+      "number": "8",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "MANNY MORIN",
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "9",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "MAREK DUMAS",
+      "team": "AL Patros",
+      "number": "77",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "MASON SACKS",
+      "team": "Lions Black Lac-St-Louis",
+      "number": "23",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "MATHEO ST-PIERRE",
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "10",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "MATHIEU AUDET",
+      "team": "National Montreal",
+      "number": "48",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "MATHIS BOUCHER",
+      "team": "Conquérants Basses-Laur",
+      "number": "4",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "MATTÉO VINCENT",
+      "team": "Dynamiques CCL",
+      "number": "26",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "MAVERICK HARDING",
+      "team": "Intrepide Outaouais",
+      "number": "50",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "MAXENCE BLAIS",
+      "team": "Lévis QC",
+      "number": "7",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "MAXIM NOËL",
+      "team": "AS Québec",
+      "number": "16",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "MAXIME OSTROVSKIY",
+      "team": "National Montreal",
+      "number": "17",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "MIKAËL LAURIN",
+      "team": "National Montreal",
+      "number": "8",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 3
+    },
+    {
+      "name": "MILAN BÉLANGER",
+      "team": "Lévis QC",
+      "number": "17",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "MÉDÉRIC MENARD",
+      "team": "Lévis QC",
+      "number": "10",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "NATHAN BLACKBURN",
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "14",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "NATHAN BOIVIN",
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "12",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "NATHAN CHEN",
+      "team": "Intrepide Outaouais",
+      "number": "41",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "NATHAN MARTIN",
+      "team": "AS Québec",
+      "number": "15",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "NAYA BELIVEAU",
+      "team": "AL Patros",
+      "number": "86",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "NOAH DELUCACALCE",
+      "team": "Conquérants Basses-Laur",
+      "number": "8",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 3
+    },
+    {
+      "name": "NOAH DOUYON-LEBEAU",
+      "team": "Conquérants Basses-Laur",
+      "number": "10",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "NOAM BOIVIN GIGUÈRE",
+      "team": "Intrepide Outaouais",
+      "number": "47",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "NOLAN FRECHETTE",
+      "team": "Intrepide Outaouais",
+      "number": "44",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 2
+    },
+    {
+      "name": "NOLAN PURDON",
+      "team": "National Montreal",
+      "number": "15",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "NOLAN RANNOU",
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "24",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "OLIVIER BERTRAND",
+      "team": "Blizzard SDF",
+      "number": "16",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "OLIVIER DESJARDINS",
+      "team": "AL Patros",
+      "number": "10",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "PHILIPPE ROCHON",
+      "team": "Blizzard SDF",
+      "number": "18",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 3
+    },
+    {
+      "name": "PIERO MEROLA",
+      "team": "National Montreal",
+      "number": "11",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 3
+    },
+    {
+      "name": "RAPHAEL BLOUIN",
+      "team": "AS Québec",
+      "number": "12",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "RAPHAEL LETARTE",
+      "team": "Lions Black Lac-St-Louis",
+      "number": "17",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "RAPHAEL PLOUIRDE",
+      "team": "AL Patros",
+      "number": "7",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "RAPHAËL ROBERGE",
+      "team": "Lévis QC",
+      "number": "31",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ROBERT HUANG",
+      "team": "Lions Black Lac-St-Louis",
+      "number": "33",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ROMAIN DAVIGNON",
+      "team": "Harfangs Sherbrooke",
+      "number": "12",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ROMIE BERGERON",
+      "team": "Blizzard SDF",
+      "number": "1",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ROSALIE GAGNE",
+      "team": "Conquérants Basses-Laur",
+      "number": "6",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "SAMUEL DYOTTE",
+      "team": "National Montreal",
+      "number": "41",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "SAMUEL HUOT",
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "14",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 3
+    },
+    {
+      "name": "SAMUEL LECLAIR",
+      "team": "AL Patros",
+      "number": "11",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "SEAN LEGARE",
+      "team": "Blizzard SDF",
+      "number": "14",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "SIMON GAUVIN",
+      "team": "National Montreal",
+      "number": "16",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "SIMON WANG",
+      "team": "Lions Black Lac-St-Louis",
+      "number": "13",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "THOMAS D'ARAGON",
+      "team": "Harfangs Sherbrooke",
+      "number": "19",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "THOMAS LETOURNEAU",
+      "team": "Blizzard SDF",
+      "number": "19",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "THOMAS LOISELLE",
+      "team": "Dynamiques CCL",
+      "number": "22",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "THOMAS MIRON",
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "11",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "THOMAS PRUNEAU",
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "18",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "THOMAS TURMEL",
+      "team": "Harfangs Sherbrooke",
+      "number": "30",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "THÉO CHAMBERLAND",
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "16",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 3
+    },
+    {
+      "name": "THÉO LAROCHE",
+      "team": "Conquérants Basses-Laur",
+      "number": "11",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "TOM DURETE",
+      "team": "AL Patros",
+      "number": "17",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "TOMMY LEBEAU",
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "28",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "TOMMY MÉNARD",
+      "team": "Blizzard SDF",
+      "number": "20",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "TYLER LAVENTURE",
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "3",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "VICTOR TREMBLAY",
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "55",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "VINCENT BOUCHER",
+      "team": "Intrepide Outaouais",
+      "number": "52",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "VINCENT NORMANDIN",
+      "team": "Dynamiques CCL",
+      "number": "33",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "WILLIAM BAKER",
+      "team": "Conquérants Basses-Laur",
+      "number": "3",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "WILLIAM PROVENCAL",
+      "team": "Harfangs Sherbrooke",
+      "number": "17",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "WILLIAM ROULEAU",
+      "team": "AS Québec",
+      "number": "14",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "WILLIAM TREPANIER",
+      "team": "National Montreal",
+      "number": "37",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "XAVIER DAMPHOUSSE",
+      "team": "Lions Black Lac-St-Louis",
+      "number": "25",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ZACHARY DUFOUR",
+      "team": "Dynamiques CCL",
+      "number": "24",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ZACK DESNOYERS",
+      "team": "National Montreal",
+      "number": "18",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ZITONG WANG",
+      "team": "Harfangs Sherbrooke",
+      "number": "15",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ÉLI BRISEBOIS",
+      "team": "AL Patros",
+      "number": "79",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ÉLOI D'ASTOUS",
+      "team": "AL Patros",
+      "number": "37",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ÉMILE MORIN",
+      "team": "AL Patros",
+      "number": "44",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ÉMILE PELLETIER",
+      "team": "Lévis QC",
+      "number": "16",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "name": "ÉTIENNE FRADETTE",
+      "team": "Lévis QC",
+      "number": "6",
+      "gp": 1,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    }
+  ],
+  "teams": [
+    {
+      "name": "M13 AAA Bears",
+      "games_played": 1,
+      "wins": 1,
+      "losses": 0,
+      "goals_for": 5,
+      "goals_against": 3,
+      "total_points": 2
+    },
+    {
+      "name": "Harfangs Sherbrooke",
+      "games_played": 1,
+      "wins": 1,
+      "losses": 0,
+      "goals_for": 4,
+      "goals_against": 3,
+      "total_points": 2
+    },
+    {
+      "name": "Lions Black Lac-St-Louis",
+      "games_played": 1,
+      "wins": 1,
+      "losses": 0,
+      "goals_for": 4,
+      "goals_against": 2,
+      "total_points": 2
+    },
+    {
+      "name": "National Montreal",
+      "games_played": 1,
+      "wins": 1,
+      "losses": 0,
+      "goals_for": 4,
+      "goals_against": 1,
+      "total_points": 2
+    },
+    {
+      "name": "Lévis QC",
+      "games_played": 1,
+      "wins": 1,
+      "losses": 0,
+      "goals_for": 3,
+      "goals_against": 1,
+      "total_points": 2
+    },
+    {
+      "name": "Espoir Saguenay Lac-St-Jean",
+      "games_played": 1,
+      "wins": 1,
+      "losses": 0,
+      "goals_for": 2,
+      "goals_against": 1,
+      "total_points": 2
+    },
+    {
+      "name": "Conquérants Basses-Laur",
+      "games_played": 1,
+      "wins": 1,
+      "losses": 0,
+      "goals_for": 2,
+      "goals_against": 1,
+      "total_points": 2
+    },
+    {
+      "name": "AL Patros",
+      "games_played": 1,
+      "wins": 0,
+      "losses": 1,
+      "goals_for": 3,
+      "goals_against": 4,
+      "total_points": 0
+    },
+    {
+      "name": "Rival Hawks",
+      "games_played": 1,
+      "wins": 0,
+      "losses": 1,
+      "goals_for": 3,
+      "goals_against": 5,
+      "total_points": 0
+    },
+    {
+      "name": "Vert & Noir de l'École Fadette",
+      "games_played": 1,
+      "wins": 0,
+      "losses": 1,
+      "goals_for": 2,
+      "goals_against": 4,
+      "total_points": 0
+    },
+    {
+      "name": "Blizzard SDF",
+      "games_played": 1,
+      "wins": 0,
+      "losses": 1,
+      "goals_for": 1,
+      "goals_against": 3,
+      "total_points": 0
+    },
+    {
+      "name": "AS Québec",
+      "games_played": 1,
+      "wins": 0,
+      "losses": 1,
+      "goals_for": 1,
+      "goals_against": 2,
+      "total_points": 0
+    },
+    {
+      "name": "Intrepide Outaouais",
+      "games_played": 1,
+      "wins": 0,
+      "losses": 1,
+      "goals_for": 1,
+      "goals_against": 2,
+      "total_points": 0
+    },
+    {
+      "name": "Dynamiques CCL",
+      "games_played": 1,
+      "wins": 0,
+      "losses": 1,
+      "goals_for": 1,
+      "goals_against": 4,
+      "total_points": 0
+    }
+  ],
+  "games": [
+    {
+      "date": "2025-09-13",
+      "home_team": "Lévis QC",
+      "away_team": "Blizzard SDF",
+      "home_score": 3,
+      "away_score": 1,
+      "players": [
+        {
+          "team": "Blizzard SDF",
+          "number": "1",
+          "name": "ROMIE BERGERON",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Blizzard SDF",
+          "number": "30",
+          "name": "JAKE KELLY",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 1
+        },
+        {
+          "team": "Blizzard SDF",
+          "number": "7",
+          "name": "WILLIAM CLEARY",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 0
+        },
+        {
+          "team": "Blizzard SDF",
+          "number": "8",
+          "name": "SIMON-OLIVIER CHAREST",
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "pim": 2
+        },
+        {
+          "team": "Blizzard SDF",
+          "number": "9",
+          "name": "EMILE BRIERE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Blizzard SDF",
+          "number": "10",
+          "name": "EDWIN GAUDY",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Blizzard SDF",
+          "number": "11",
+          "name": "MALCOLM CLOUTIER",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Blizzard SDF",
+          "number": "12",
+          "name": "ALEX COUTURE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Blizzard SDF",
+          "number": "13",
+          "name": "LUCAS BÉDARD",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Blizzard SDF",
+          "number": "14",
+          "name": "SEAN LEGARE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Blizzard SDF",
+          "number": "16",
+          "name": "OLIVIER BERTRAND",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Blizzard SDF",
+          "number": "17",
+          "name": "CHARLES-ELI BERGERON",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 3
+        },
+        {
+          "team": "Blizzard SDF",
+          "number": "18",
+          "name": "PHILIPPE ROCHON",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 3
+        },
+        {
+          "team": "Blizzard SDF",
+          "number": "19",
+          "name": "THOMAS LETOURNEAU",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Blizzard SDF",
+          "number": "20",
+          "name": "TOMMY MÉNARD",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Blizzard SDF",
+          "number": "21",
+          "name": "CHARLES POULIN",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Blizzard SDF",
+          "number": "25",
+          "name": "ELLIOTT-JAMES BERNIER",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Lévis QC",
+          "number": "30",
+          "name": "MALCOM FOURNIER",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Lévis QC",
+          "number": "31",
+          "name": "RAPHAËL ROBERGE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Lévis QC",
+          "number": "3",
+          "name": "FELIX TURMEL",
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "pim": 1
+        },
+        {
+          "team": "Lévis QC",
+          "number": "4",
+          "name": "LOUIS-PHILIPPE BOUFFARD",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 0
+        },
+        {
+          "team": "Lévis QC",
+          "number": "6",
+          "name": "ÉTIENNE FRADETTE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Lévis QC",
+          "number": "7",
+          "name": "MAXENCE BLAIS",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Lévis QC",
+          "number": "8",
+          "name": "ELIOT GENDRON",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Lévis QC",
+          "number": "9",
+          "name": "THOMAS LESSARD",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 0
+        },
+        {
+          "team": "Lévis QC",
+          "number": "10",
+          "name": "MÉDÉRIC MENARD",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Lévis QC",
+          "number": "11",
+          "name": "GABRIEL GUILLEMETTE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Lévis QC",
+          "number": "12",
+          "name": "ARNAUD CHAMBERS-ALAIN",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Lévis QC",
+          "number": "13",
+          "name": "WILLIAM DUGUAY",
+          "goals": 1,
+          "assists": 1,
+          "points": 2,
+          "pim": 0
+        },
+        {
+          "team": "Lévis QC",
+          "number": "14",
+          "name": "CHARLES DUVAL",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Lévis QC",
+          "number": "16",
+          "name": "ÉMILE PELLETIER",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Lévis QC",
+          "number": "17",
+          "name": "MILAN BÉLANGER",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Lévis QC",
+          "number": "18",
+          "name": "HUBERT LEMAY",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Lévis QC",
+          "number": "19",
+          "name": "ALEX-ANTOINE LEMAY",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        }
+      ]
+    },
+    {
+      "date": "2025-09-13",
+      "home_team": "Espoir Saguenay Lac-St-Jean",
+      "away_team": "AS Québec",
+      "home_score": 2,
+      "away_score": 1,
+      "players": [
+        {
+          "team": "Espoir Saguenay Lac-St-Jean",
+          "number": "1",
+          "name": "CHARLES ST-AMAND",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 0
+        },
+        {
+          "team": "Espoir Saguenay Lac-St-Jean",
+          "number": "30",
+          "name": "DWAYNE BINETTE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Espoir Saguenay Lac-St-Jean",
+          "number": "4",
+          "name": "ELI FRIGON",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Espoir Saguenay Lac-St-Jean",
+          "number": "10",
+          "name": "JOE-CHRISTOPHE TREMBLAY",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Espoir Saguenay Lac-St-Jean",
+          "number": "12",
+          "name": "NATHAN BOIVIN",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Espoir Saguenay Lac-St-Jean",
+          "number": "14",
+          "name": "NATHAN BLACKBURN",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Espoir Saguenay Lac-St-Jean",
+          "number": "16",
+          "name": "JACOB SIMARD",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Espoir Saguenay Lac-St-Jean",
+          "number": "18",
+          "name": "THOMAS PRUNEAU",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Espoir Saguenay Lac-St-Jean",
+          "number": "20",
+          "name": "LAMBERT SIMARD",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 0
+        },
+        {
+          "team": "Espoir Saguenay Lac-St-Jean",
+          "number": "21",
+          "name": "ARTHUR TREMBLAY",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Espoir Saguenay Lac-St-Jean",
+          "number": "24",
+          "name": "NOLAN RANNOU",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Espoir Saguenay Lac-St-Jean",
+          "number": "25",
+          "name": "CHRISTOPHER MORIN",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Espoir Saguenay Lac-St-Jean",
+          "number": "28",
+          "name": "TOMMY LEBEAU",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Espoir Saguenay Lac-St-Jean",
+          "number": "29",
+          "name": "LÉO HUARD",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Espoir Saguenay Lac-St-Jean",
+          "number": "50",
+          "name": "BENJAMIN GOLIA",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Espoir Saguenay Lac-St-Jean",
+          "number": "55",
+          "name": "VICTOR TREMBLAY",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Espoir Saguenay Lac-St-Jean",
+          "number": "65",
+          "name": "FÉLIX GRENIER",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AS Québec",
+          "number": "1",
+          "name": "ELLIOT CORMIER",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AS Québec",
+          "number": "30",
+          "name": "HAYDEN PETITCLERC",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AS Québec",
+          "number": "2",
+          "name": "ALEXIS RHEAUME",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AS Québec",
+          "number": "3",
+          "name": "JACOB LAMBERT",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AS Québec",
+          "number": "4",
+          "name": "ANTOINE MORNEAU",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AS Québec",
+          "number": "5",
+          "name": "JULES CLOUET",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AS Québec",
+          "number": "6",
+          "name": "LOÏC ROCHON",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AS Québec",
+          "number": "8",
+          "name": "DAYVEN CÔTÉ",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 0
+        },
+        {
+          "team": "AS Québec",
+          "number": "10",
+          "name": "CHARLES LEVEILLEE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AS Québec",
+          "number": "11",
+          "name": "ELIOT LAVERDIÈRE-BOUTIN",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AS Québec",
+          "number": "12",
+          "name": "RAPHAEL BLOUIN",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AS Québec",
+          "number": "13",
+          "name": "LIAM BERNARD",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AS Québec",
+          "number": "14",
+          "name": "WILLIAM ROULEAU",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AS Québec",
+          "number": "15",
+          "name": "NATHAN MARTIN",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AS Québec",
+          "number": "16",
+          "name": "MAXIM NOËL",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AS Québec",
+          "number": "17",
+          "name": "LIAM SUNDERLAND",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AS Québec",
+          "number": "20",
+          "name": "AUGUSTE LEPAGE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        }
+      ]
+    },
+    {
+      "date": "2025-09-13",
+      "home_team": "Harfangs Sherbrooke",
+      "away_team": "AL Patros",
+      "home_score": 4,
+      "away_score": 3,
+      "players": [
+        {
+          "team": "Harfangs Sherbrooke",
+          "number": "1",
+          "name": "ELOAN DUCHESNE",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 0
+        },
+        {
+          "team": "Harfangs Sherbrooke",
+          "number": "30",
+          "name": "THOMAS TURMEL",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Harfangs Sherbrooke",
+          "number": "2",
+          "name": "PHILIPPE GOSSELIN",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 0
+        },
+        {
+          "team": "Harfangs Sherbrooke",
+          "number": "3",
+          "name": "JAYCE BAMBERRE",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 0
+        },
+        {
+          "team": "Harfangs Sherbrooke",
+          "number": "4",
+          "name": "WILLIAM FOWLIS",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 0
+        },
+        {
+          "team": "Harfangs Sherbrooke",
+          "number": "5",
+          "name": "LIAM NADEAU",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Harfangs Sherbrooke",
+          "number": "6",
+          "name": "LIAM GAGNÉ",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Harfangs Sherbrooke",
+          "number": "7",
+          "name": "LUDOVICK ROY",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Harfangs Sherbrooke",
+          "number": "8",
+          "name": "MALIK CASAVANT",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Harfangs Sherbrooke",
+          "number": "9",
+          "name": "ANTHONY GARIEPY",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Harfangs Sherbrooke",
+          "number": "10",
+          "name": "FELIX NOËL",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Harfangs Sherbrooke",
+          "number": "11",
+          "name": "ANTOINE DOYON",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Harfangs Sherbrooke",
+          "number": "12",
+          "name": "ROMAIN DAVIGNON",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Harfangs Sherbrooke",
+          "number": "13",
+          "name": "DYLAN POIRIER",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Harfangs Sherbrooke",
+          "number": "15",
+          "name": "ZITONG WANG",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Harfangs Sherbrooke",
+          "number": "17",
+          "name": "WILLIAM PROVENCAL",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Harfangs Sherbrooke",
+          "number": "19",
+          "name": "THOMAS D'ARAGON",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AL Patros",
+          "number": "1",
+          "name": "ELI DESROCHERS",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 0
+        },
+        {
+          "team": "AL Patros",
+          "number": "33",
+          "name": "LOUIS-FÉLIX GAGNE",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 0
+        },
+        {
+          "team": "AL Patros",
+          "number": "4",
+          "name": "ÉLOI CYR",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 0
+        },
+        {
+          "team": "AL Patros",
+          "number": "7",
+          "name": "RAPHAEL PLOUIRDE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AL Patros",
+          "number": "10",
+          "name": "OLIVIER DESJARDINS",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AL Patros",
+          "number": "11",
+          "name": "SAMUEL LECLAIR",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AL Patros",
+          "number": "13",
+          "name": "FÉLIX PELLETIER",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AL Patros",
+          "number": "17",
+          "name": "TOM DURETE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AL Patros",
+          "number": "19",
+          "name": "ELLIOT SIROIS",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AL Patros",
+          "number": "37",
+          "name": "ÉLOI D'ASTOUS",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AL Patros",
+          "number": "44",
+          "name": "ÉMILE MORIN",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AL Patros",
+          "number": "71",
+          "name": "JORDAN MURRAY",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AL Patros",
+          "number": "72",
+          "name": "LOÏC LEVESQUE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AL Patros",
+          "number": "77",
+          "name": "MAREK DUMAS",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AL Patros",
+          "number": "79",
+          "name": "ÉLI BRISEBOIS",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AL Patros",
+          "number": "86",
+          "name": "NAYA BELIVEAU",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "AL Patros",
+          "number": "90",
+          "name": "DAMIEN GAGNON",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        }
+      ]
+    },
+    {
+      "date": "2025-09-13",
+      "home_team": "Conquérants Basses-Laur",
+      "away_team": "Intrepide Outaouais",
+      "home_score": 2,
+      "away_score": 1,
+      "players": [
+        {
+          "team": "Intrepide Outaouais",
+          "number": "31",
+          "name": "RAPHAEL MINEAULT",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 0
+        },
+        {
+          "team": "Intrepide Outaouais",
+          "number": "33",
+          "name": "DEVEN CHARBONNEAU",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Intrepide Outaouais",
+          "number": "40",
+          "name": "LOIC BENOIT",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Intrepide Outaouais",
+          "number": "41",
+          "name": "NATHAN CHEN",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Intrepide Outaouais",
+          "number": "42",
+          "name": "JAYDEN PROULX",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 2
+        },
+        {
+          "team": "Intrepide Outaouais",
+          "number": "43",
+          "name": "ENZO RIVERA MOLDOVAN",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Intrepide Outaouais",
+          "number": "44",
+          "name": "NOLAN FRECHETTE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 2
+        },
+        {
+          "team": "Intrepide Outaouais",
+          "number": "45",
+          "name": "ADRIEN CÔTÉ",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 3
+        },
+        {
+          "team": "Intrepide Outaouais",
+          "number": "46",
+          "name": "BENJAMIN RAYMOND",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Intrepide Outaouais",
+          "number": "47",
+          "name": "NOAM BOIVIN GIGUÈRE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Intrepide Outaouais",
+          "number": "48",
+          "name": "MALIK BEAULNE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Intrepide Outaouais",
+          "number": "49",
+          "name": "BLAKE LINDSAY",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Intrepide Outaouais",
+          "number": "50",
+          "name": "MAVERICK HARDING",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Intrepide Outaouais",
+          "number": "51",
+          "name": "CARTER POIRIER",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 4
+        },
+        {
+          "team": "Intrepide Outaouais",
+          "number": "52",
+          "name": "VINCENT BOUCHER",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Intrepide Outaouais",
+          "number": "53",
+          "name": "DAMIEN PICHÉ",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Intrepide Outaouais",
+          "number": "54",
+          "name": "ELLIOT ST-CYR",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Conquérants Basses-Laur",
+          "number": "1",
+          "name": "THOMAS RIVAS-BÉLANGER",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 0
+        },
+        {
+          "team": "Conquérants Basses-Laur",
+          "number": "2",
+          "name": "ELLIOT SAVOIE",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 3
+        },
+        {
+          "team": "Conquérants Basses-Laur",
+          "number": "3",
+          "name": "WILLIAM BAKER",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Conquérants Basses-Laur",
+          "number": "4",
+          "name": "MATHIS BOUCHER",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Conquérants Basses-Laur",
+          "number": "5",
+          "name": "ELIOTT LAPOINTE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 1
+        },
+        {
+          "team": "Conquérants Basses-Laur",
+          "number": "6",
+          "name": "ROSALIE GAGNE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Conquérants Basses-Laur",
+          "number": "7",
+          "name": "JAYDEN TOURANGUEAU",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Conquérants Basses-Laur",
+          "number": "8",
+          "name": "NOAH DELUCACALCE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 3
+        },
+        {
+          "team": "Conquérants Basses-Laur",
+          "number": "9",
+          "name": "JAYDEN BERNIER",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Conquérants Basses-Laur",
+          "number": "10",
+          "name": "NOAH DOUYON-LEBEAU",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Conquérants Basses-Laur",
+          "number": "11",
+          "name": "THÉO LAROCHE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Conquérants Basses-Laur",
+          "number": "12",
+          "name": "BENJAMIN BERTRAND",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Conquérants Basses-Laur",
+          "number": "13",
+          "name": "DYLAN BRIEN",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Conquérants Basses-Laur",
+          "number": "14",
+          "name": "CHRISTOPHE LAJEUNESSE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Conquérants Basses-Laur",
+          "number": "15",
+          "name": "JACOB VALIQUETTE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Conquérants Basses-Laur",
+          "number": "16",
+          "name": "BRENDAN RONDEAU PRONOVOST",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        }
+      ]
+    },
+    {
+      "date": "2025-09-13",
+      "home_team": "Vert & Noir de l'École Fadette",
+      "away_team": "Lions Black Lac-St-Louis",
+      "home_score": 2,
+      "away_score": 4,
+      "players": [
+        {
+          "team": "Lions Black Lac-St-Louis",
+          "number": "29",
+          "name": "DEAN TSANOUSAS",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 2
+        },
+        {
+          "team": "Lions Black Lac-St-Louis",
+          "number": "23",
+          "name": "GAVIN BLACK",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 3
+        },
+        {
+          "team": "Lions Black Lac-St-Louis",
+          "number": "5",
+          "name": "JOSHUA ZHAO",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 0
+        },
+        {
+          "team": "Lions Black Lac-St-Louis",
+          "number": "7",
+          "name": "CHRISTIAN LEROY",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 0
+        },
+        {
+          "team": "Lions Black Lac-St-Louis",
+          "number": "9",
+          "name": "ELIE ROSSDEUTSCHER",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Lions Black Lac-St-Louis",
+          "number": "11",
+          "name": "ADAM COMEAU",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Lions Black Lac-St-Louis",
+          "number": "13",
+          "name": "SIMON WANG",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Lions Black Lac-St-Louis",
+          "number": "15",
+          "name": "ANGUS FLYNN",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Lions Black Lac-St-Louis",
+          "number": "17",
+          "name": "RAPHAEL LETARTE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Lions Black Lac-St-Louis",
+          "number": "19",
+          "name": "LUDOVIC SOUCIE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Lions Black Lac-St-Louis",
+          "number": "23",
+          "name": "MASON SACKS",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Lions Black Lac-St-Louis",
+          "number": "25",
+          "name": "XAVIER DAMPHOUSSE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Lions Black Lac-St-Louis",
+          "number": "27",
+          "name": "EZECHIEL CARBONNEAU-FOPA",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Lions Black Lac-St-Louis",
+          "number": "29",
+          "name": "LIAM GARLAND",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Lions Black Lac-St-Louis",
+          "number": "31",
+          "name": "ALEXANDRE ZORKA",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Lions Black Lac-St-Louis",
+          "number": "33",
+          "name": "ROBERT HUANG",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Vert & Noir de l'École Fadette",
+          "number": "29",
+          "name": "NICOLAS PROULX",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 0
+        },
+        {
+          "team": "Vert & Noir de l'École Fadette",
+          "number": "30",
+          "name": "ALEXY GILEAU",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 0
+        },
+        {
+          "team": "Vert & Noir de l'École Fadette",
+          "number": "2",
+          "name": "ELIOTT DESCARRIES",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Vert & Noir de l'École Fadette",
+          "number": "3",
+          "name": "TYLER LAVENTURE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Vert & Noir de l'École Fadette",
+          "number": "4",
+          "name": "ELLIOT POTVIN",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 3
+        },
+        {
+          "team": "Vert & Noir de l'École Fadette",
+          "number": "6",
+          "name": "LAMBERT SAUVE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Vert & Noir de l'École Fadette",
+          "number": "8",
+          "name": "EVE O'CONNOR",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Vert & Noir de l'École Fadette",
+          "number": "9",
+          "name": "MANNY MORIN",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Vert & Noir de l'École Fadette",
+          "number": "10",
+          "name": "MATHEO ST-PIERRE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Vert & Noir de l'École Fadette",
+          "number": "11",
+          "name": "THOMAS MIRON",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Vert & Noir de l'École Fadette",
+          "number": "12",
+          "name": "JACOB LOISEAU",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Vert & Noir de l'École Fadette",
+          "number": "13",
+          "name": "CAMPBELL O'CONNOR",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Vert & Noir de l'École Fadette",
+          "number": "14",
+          "name": "SAMUEL HUOT",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 3
+        },
+        {
+          "team": "Vert & Noir de l'École Fadette",
+          "number": "15",
+          "name": "CHARLIE DUMAINE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 3
+        },
+        {
+          "team": "Vert & Noir de l'École Fadette",
+          "number": "16",
+          "name": "THÉO CHAMBERLAND",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 3
+        },
+        {
+          "team": "Vert & Noir de l'École Fadette",
+          "number": "17",
+          "name": "CHARLES FOURNIER",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Vert & Noir de l'École Fadette",
+          "number": "18",
+          "name": "CHARLES LABONTE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        }
+      ]
+    },
+    {
+      "date": "2025-09-13",
+      "home_team": "Dynamiques CCL",
+      "away_team": "National Montreal",
+      "home_score": 1,
+      "away_score": 4,
+      "players": [
+        {
+          "team": "National Montreal",
+          "number": "30",
+          "name": "XAVIER REID",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 0
+        },
+        {
+          "team": "National Montreal",
+          "number": "39",
+          "name": "TYLER MAYSON PROULX",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 0
+        },
+        {
+          "team": "National Montreal",
+          "number": "4",
+          "name": "RENAUD WILKINS",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 0
+        },
+        {
+          "team": "National Montreal",
+          "number": "6",
+          "name": "LUISA SOEHL",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 0
+        },
+        {
+          "team": "National Montreal",
+          "number": "7",
+          "name": "LUCA IACONO",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 2
+        },
+        {
+          "team": "National Montreal",
+          "number": "8",
+          "name": "MIKAËL LAURIN",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 3
+        },
+        {
+          "team": "National Montreal",
+          "number": "11",
+          "name": "PIERO MEROLA",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 3
+        },
+        {
+          "team": "National Montreal",
+          "number": "12",
+          "name": "ADAM LAMOUREUX",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 3
+        },
+        {
+          "team": "National Montreal",
+          "number": "13",
+          "name": "DYLAN CARBONE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "National Montreal",
+          "number": "14",
+          "name": "BRANDO VALENTINO MAMBRO",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "National Montreal",
+          "number": "15",
+          "name": "NOLAN PURDON",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "National Montreal",
+          "number": "16",
+          "name": "SIMON GAUVIN",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "National Montreal",
+          "number": "17",
+          "name": "MAXIME OSTROVSKIY",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "National Montreal",
+          "number": "18",
+          "name": "ZACK DESNOYERS",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "National Montreal",
+          "number": "37",
+          "name": "WILLIAM TREPANIER",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "National Montreal",
+          "number": "41",
+          "name": "SAMUEL DYOTTE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "National Montreal",
+          "number": "48",
+          "name": "MATHIEU AUDET",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Dynamiques CCL",
+          "number": "1",
+          "name": "CHARLES-ETIENNE LAROCHE",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 0
+        },
+        {
+          "team": "Dynamiques CCL",
+          "number": "20",
+          "name": "BRYSEN BYRON",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Dynamiques CCL",
+          "number": "21",
+          "name": "GAVIN GREGOIRE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Dynamiques CCL",
+          "number": "22",
+          "name": "THOMAS LOISELLE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Dynamiques CCL",
+          "number": "23",
+          "name": "ALICK DOSTIE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Dynamiques CCL",
+          "number": "24",
+          "name": "ZACHARY DUFOUR",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Dynamiques CCL",
+          "number": "25",
+          "name": "JAKOB LECLERC",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Dynamiques CCL",
+          "number": "26",
+          "name": "MATTÉO VINCENT",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Dynamiques CCL",
+          "number": "27",
+          "name": "LOUIS TURCOT",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Dynamiques CCL",
+          "number": "28",
+          "name": "MAKSIM KOZICH",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Dynamiques CCL",
+          "number": "29",
+          "name": "BÉATRICE MASSE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Dynamiques CCL",
+          "number": "32",
+          "name": "LAURENT DION",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Dynamiques CCL",
+          "number": "33",
+          "name": "VINCENT NORMANDIN",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Dynamiques CCL",
+          "number": "34",
+          "name": "JUN-FENG LIU",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Dynamiques CCL",
+          "number": "37",
+          "name": "JACKSON ADAMS",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        },
+        {
+          "team": "Dynamiques CCL",
+          "number": "39",
+          "name": "LUDOVIC LALONDE",
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "pim": 0
+        }
+      ]
+    },
+    {
+      "date": "2025-10-04",
+      "home_team": "M13 AAA Bears",
+      "away_team": "Rival Hawks",
+      "home_score": 5,
+      "away_score": 3,
+      "players": [
+        {
+          "team": "M13 AAA Bears",
+          "number": "11",
+          "name": "Sample Player A",
+          "goals": 2,
+          "assists": 1,
+          "points": 3,
+          "pim": 2
+        },
+        {
+          "team": "M13 AAA Bears",
+          "number": "17",
+          "name": "Sample Player B",
+          "goals": 1,
+          "assists": 2,
+          "points": 3,
+          "pim": 0
+        },
+        {
+          "team": "M13 AAA Bears",
+          "number": "22",
+          "name": "Sample Player C",
+          "goals": 2,
+          "assists": 0,
+          "points": 2,
+          "pim": 4
+        },
+        {
+          "team": "Rival Hawks",
+          "number": "9",
+          "name": "Opp Player X",
+          "goals": 2,
+          "assists": 1,
+          "points": 3,
+          "pim": 0
+        },
+        {
+          "team": "Rival Hawks",
+          "number": "14",
+          "name": "Opp Player Y",
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "pim": 2
+        }
+      ]
+    }
+  ]
+}

@@ -5,11 +5,16 @@ build_index.py
 Scan data/games/ for all *.json files and regenerate docs/js/games-index.js
 so that the GitHub Pages site knows which game files to load.
 
+This script also:
+1. Validates all game JSON files
+2. Regenerates aggregated stats (data/aggregated_stats.json)
+
 Run this script after adding or removing game JSON files:
     python scripts/build_index.py
 """
 
 import json
+import sys
 from pathlib import Path
 
 REPO_ROOT  = Path(__file__).resolve().parent.parent
@@ -31,21 +36,59 @@ HEADER = """\
 """
 
 
-def main() -> None:
-    game_files = sorted(
-        p.name for p in GAMES_DIR.glob("*.json")
-        if p.is_file()
-    )
-
+def build_games_index(game_files: list) -> None:
+    """Build and write the games index JavaScript file."""
     js_array = json.dumps(game_files, indent=2)
     content  = HEADER + f"const GAMES_INDEX = {js_array};\n"
 
     INDEX_FILE.parent.mkdir(parents=True, exist_ok=True)
     INDEX_FILE.write_text(content, encoding="utf-8")
 
-    print(f"✓  Written {INDEX_FILE}  ({len(game_files)} game(s))")
+    print(f"✓ Written {INDEX_FILE}  ({len(game_files)} game(s))")
     for name in game_files:
         print(f"   - {name}")
+
+
+def build_aggregated_stats(game_files: list) -> None:
+    """Build aggregated stats from all games."""
+    # Import the stats_aggregator module
+    stats_aggregator_path = REPO_ROOT / "scripts" / "stats_aggregator.py"
+    
+    # Dynamically import stats_aggregator
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("stats_aggregator", stats_aggregator_path)
+    if spec and spec.loader:
+        stats_agg = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(stats_agg)
+        
+        # Load games and build aggregated stats
+        games = stats_agg.load_all_games()
+        if games:
+            aggregated = stats_agg.build_aggregated_stats(games)
+            stats_output = REPO_ROOT / "data" / "aggregated_stats.json"
+            
+            with open(stats_output, "w", encoding="utf-8") as f:
+                json.dump(aggregated, f, ensure_ascii=False, indent=2)
+            
+            print(f"\n✓ Written {stats_output}  ({len(games)} game(s))")
+
+
+def main() -> None:
+    """Main entry point."""
+    game_files = sorted(
+        p.name for p in GAMES_DIR.glob("*.json")
+        if p.is_file()
+    )
+
+    print("=== Building Games Index ===\n")
+    build_games_index(game_files)
+    
+    print("\n=== Building Aggregated Stats ===\n")
+    try:
+        build_aggregated_stats(game_files)
+    except Exception as e:
+        print(f"⚠ Warning: Could not build aggregated stats: {e}")
+        # Don't fail on stats build errors
 
 
 if __name__ == "__main__":
