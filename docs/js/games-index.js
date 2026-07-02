@@ -10,5 +10,6 @@
 
 // eslint-disable-next-line no-unused-vars
 const GAMES_INDEX = [
+  "2025-09-13_Blizzard_SDF_vs_Levis_QC.json",
   "2025-10-04_Rival_Hawks_vs_M13_AAA_Bears.json"
 ];
