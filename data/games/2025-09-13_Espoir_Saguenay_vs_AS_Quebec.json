@@ -1,0 +1,315 @@
+{
+  "date": "2025-09-13",
+  "home_team": "Espoir Saguenay Lac-St-Jean",
+  "away_team": "AS Québec",
+  "home_score": 2,
+  "away_score": 1,
+  "players": [
+    {
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "1",
+      "name": "CHARLES ST-AMAND",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "30",
+      "name": "DWAYNE BINETTE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "4",
+      "name": "ELI FRIGON",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "10",
+      "name": "JOE-CHRISTOPHE TREMBLAY",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "12",
+      "name": "NATHAN BOIVIN",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "14",
+      "name": "NATHAN BLACKBURN",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "16",
+      "name": "JACOB SIMARD",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "18",
+      "name": "THOMAS PRUNEAU",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "20",
+      "name": "LAMBERT SIMARD",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "21",
+      "name": "ARTHUR TREMBLAY",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "24",
+      "name": "NOLAN RANNOU",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "25",
+      "name": "CHRISTOPHER MORIN",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "28",
+      "name": "TOMMY LEBEAU",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "29",
+      "name": "LÉO HUARD",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "50",
+      "name": "BENJAMIN GOLIA",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "55",
+      "name": "VICTOR TREMBLAY",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Espoir Saguenay Lac-St-Jean",
+      "number": "65",
+      "name": "FÉLIX GRENIER",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AS Québec",
+      "number": "1",
+      "name": "ELLIOT CORMIER",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AS Québec",
+      "number": "30",
+      "name": "HAYDEN PETITCLERC",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AS Québec",
+      "number": "2",
+      "name": "ALEXIS RHEAUME",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AS Québec",
+      "number": "3",
+      "name": "JACOB LAMBERT",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AS Québec",
+      "number": "4",
+      "name": "ANTOINE MORNEAU",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AS Québec",
+      "number": "5",
+      "name": "JULES CLOUET",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AS Québec",
+      "number": "6",
+      "name": "LOÏC ROCHON",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AS Québec",
+      "number": "8",
+      "name": "DAYVEN CÔTÉ",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "team": "AS Québec",
+      "number": "10",
+      "name": "CHARLES LEVEILLEE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AS Québec",
+      "number": "11",
+      "name": "ELIOT LAVERDIÈRE-BOUTIN",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AS Québec",
+      "number": "12",
+      "name": "RAPHAEL BLOUIN",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AS Québec",
+      "number": "13",
+      "name": "LIAM BERNARD",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AS Québec",
+      "number": "14",
+      "name": "WILLIAM ROULEAU",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AS Québec",
+      "number": "15",
+      "name": "NATHAN MARTIN",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AS Québec",
+      "number": "16",
+      "name": "MAXIM NOËL",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AS Québec",
+      "number": "17",
+      "name": "LIAM SUNDERLAND",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AS Québec",
+      "number": "20",
+      "name": "AUGUSTE LEPAGE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    }
+  ]
+}
