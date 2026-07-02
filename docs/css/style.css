@@ -1,0 +1,223 @@
+/* =========================================================
+   M13 AAA Season Stats – Stylesheet
+   ========================================================= */
+
+:root {
+  --bg:        #0d1117;
+  --surface:   #161b22;
+  --border:    #30363d;
+  --accent:    #58a6ff;
+  --accent2:   #e3b341;
+  --text:      #c9d1d9;
+  --text-muted:#8b949e;
+  --red:       #f85149;
+  --green:     #3fb950;
+  --font:      "Segoe UI", system-ui, sans-serif;
+  --radius:    8px;
+}
+
+/* --- Reset & base --- */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* --- Header --- */
+header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.subtitle {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+
+/* --- Main content --- */
+main {
+  flex: 1;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+section h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--accent2);
+  margin-bottom: 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--border);
+}
+
+/* --- Table --- */
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+
+thead th {
+  background: var(--surface);
+  color: var(--text-muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  padding: 0.6rem 0.8rem;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  white-space: nowrap;
+}
+
+thead th.num { text-align: right; }
+
+thead th.sortable { cursor: pointer; user-select: none; }
+thead th.sortable:hover { color: var(--accent); }
+thead th.sort-asc::after  { content: " ▲"; font-size: 0.65em; }
+thead th.sort-desc::after { content: " ▼"; font-size: 0.65em; }
+
+tbody tr {
+  border-bottom: 1px solid var(--border);
+  transition: background 0.1s;
+}
+tbody tr:last-child { border-bottom: none; }
+tbody tr:hover { background: rgba(88,166,255,0.05); }
+
+tbody td {
+  padding: 0.55rem 0.8rem;
+  vertical-align: middle;
+}
+
+.num { text-align: right; font-variant-numeric: tabular-nums; }
+
+.rank { color: var(--text-muted); font-size: 0.8rem; }
+.player-name { font-weight: 600; color: #fff; }
+.team-badge {
+  display: inline-block;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.15rem 0.5rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.stat-goals   { color: var(--accent); font-weight: 700; }
+.stat-points  { color: var(--accent2); font-weight: 700; }
+.stat-pim     { color: var(--red); }
+
+/* --- Game cards --- */
+#games-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1rem;
+}
+
+.game-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+}
+
+.game-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+}
+
+.game-date {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.game-score {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+.game-teams {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 0.15rem;
+}
+
+.game-card table {
+  margin-top: 0.75rem;
+}
+
+.game-card thead th {
+  font-size: 0.7rem;
+  padding: 0.35rem 0.5rem;
+}
+
+.game-card tbody td {
+  padding: 0.35rem 0.5rem;
+  font-size: 0.82rem;
+}
+
+/* --- Misc --- */
+.loading {
+  color: var(--text-muted);
+  font-style: italic;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.no-data {
+  color: var(--text-muted);
+  font-style: italic;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+/* --- Footer --- */
+footer {
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* --- Responsive --- */
+@media (max-width: 600px) {
+  header h1 { font-size: 1.3rem; }
+  #games-container { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,54 @@
+{
+  "date": "2025-10-04",
+  "home_team": "M13 AAA Bears",
+  "away_team": "Rival Hawks",
+  "home_score": 5,
+  "away_score": 3,
+  "players": [
+    {
+      "team": "M13 AAA Bears",
+      "number": "11",
+      "name": "Sample Player A",
+      "goals": 2,
+      "assists": 1,
+      "points": 3,
+      "pim": 2
+    },
+    {
+      "team": "M13 AAA Bears",
+      "number": "17",
+      "name": "Sample Player B",
+      "goals": 1,
+      "assists": 2,
+      "points": 3,
+      "pim": 0
+    },
+    {
+      "team": "M13 AAA Bears",
+      "number": "22",
+      "name": "Sample Player C",
+      "goals": 2,
+      "assists": 0,
+      "points": 2,
+      "pim": 4
+    },
+    {
+      "team": "Rival Hawks",
+      "number": "9",
+      "name": "Opp Player X",
+      "goals": 2,
+      "assists": 1,
+      "points": 3,
+      "pim": 0
+    },
+    {
+      "team": "Rival Hawks",
+      "number": "14",
+      "name": "Opp Player Y",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 2
+    }
+  ]
+}

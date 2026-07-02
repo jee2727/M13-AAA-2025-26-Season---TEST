@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M13 AAA 2025–26 Season Stats</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>🏒 M13 AAA – 2025–26 Season Stats</h1>
+    <p class="subtitle">Player statistics extracted from official game sheets</p>
+  </header>
+
+  <main>
+    <!-- Season totals -->
+    <section id="season-totals">
+      <h2>Season Totals</h2>
+      <div class="table-wrapper">
+        <table id="totals-table">
+          <thead>
+            <tr>
+              <th class="sortable" data-col="rank">#</th>
+              <th class="sortable" data-col="name">Player</th>
+              <th class="sortable" data-col="team">Team</th>
+              <th class="sortable num" data-col="gp">GP</th>
+              <th class="sortable num" data-col="goals">G</th>
+              <th class="sortable num" data-col="assists">A</th>
+              <th class="sortable num" data-col="points">PTS</th>
+              <th class="sortable num" data-col="pim">PIM</th>
+            </tr>
+          </thead>
+          <tbody id="totals-body">
+            <tr><td colspan="8" class="loading">Loading stats…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Game log -->
+    <section id="game-log">
+      <h2>Game Log</h2>
+      <div id="games-container">
+        <p class="loading">Loading games…</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      Stats sourced from
+      <a href="https://spordle.com" target="_blank" rel="noopener">Spordle / LHEQ</a>
+      game sheets.
+      Last updated: <span id="last-updated">–</span>
+    </p>
+  </footer>
+
+  <!-- Game index built by GitHub Actions (or manually) -->
+  <script src="js/games-index.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
