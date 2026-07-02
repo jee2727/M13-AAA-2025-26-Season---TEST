@@ -105,15 +105,6 @@ uses:
 python scripts/build_index.py
 ```
 
-### 4. Rebuild the website index
-
-After adding one or more game JSON files, regenerate the index that the website
-uses:
-
-```bash
-python scripts/build_index.py
-```
-
 ### 5. Preview the website locally
 
 Open `docs/index.html` in your browser, **or** serve it with any static server:
