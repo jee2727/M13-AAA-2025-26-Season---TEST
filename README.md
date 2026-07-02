@@ -19,8 +19,9 @@ them as JSON, and publish a live stats website on **GitHub Pages**.
 │       ├── app.js
 │       └── games-index.js   ← rebuilt automatically by CI
 ├── scripts/
-│   ├── extract_stats.py     ← download PDF → extract stats → save JSON
-│   ├── build_index.py       ← rebuild docs/js/games-index.js
+│   ├── extract_stats.py          ← download PDF → extract stats → save JSON
+│   ├── lheq_pdf_downloader.py    ← download PDFs from LHEQ game pages
+│   ├── build_index.py            ← rebuild docs/js/games-index.js
 │   └── requirements.txt
 └── .github/workflows/
     └── deploy-pages.yml     ← CI: rebuild index + deploy site on every push
@@ -36,7 +37,24 @@ them as JSON, and publish a live stats website on **GitHub Pages**.
 pip install -r scripts/requirements.txt
 ```
 
-### 2. Extract stats from a game-sheet PDF
+### 2. Download PDFs from LHEQ game pages
+
+For advanced use or debugging, use `lheq_pdf_downloader.py` to find and download PDFs directly from LHEQ game schedule pages:
+
+```bash
+# Game #1000 (gameId 614322)
+python scripts/lheq_pdf_downloader.py 614322
+
+# Specify output filename
+python scripts/lheq_pdf_downloader.py 614322 --output game_1000.pdf
+
+# Use Playwright if static HTML parsing fails (e.g., for JavaScript-heavy pages)
+python scripts/lheq_pdf_downloader.py 614322 --method playwright
+```
+
+See [LHEQ_PDF_DOWNLOADER.md](LHEQ_PDF_DOWNLOADER.md) for full documentation.
+
+### 3. Extract stats from a game-sheet PDF
 
 The script supports three types of sources:
 
@@ -78,7 +96,7 @@ python scripts/extract_stats.py "https://masculin.lheq.ca/fr/schedule/614322?gam
 
 Without `--game-id`, the script auto-generates a filename like `2025-10-04_away_vs_home.json`.
 
-### 3. Rebuild the website index
+### 4. Rebuild the website index
 
 After adding one or more game JSON files, regenerate the index that the website
 uses:
@@ -87,7 +105,16 @@ uses:
 python scripts/build_index.py
 ```
 
-### 4. Preview the website locally
+### 4. Rebuild the website index
+
+After adding one or more game JSON files, regenerate the index that the website
+uses:
+
+```bash
+python scripts/build_index.py
+```
+
+### 5. Preview the website locally
 
 Open `docs/index.html` in your browser, **or** serve it with any static server:
 
