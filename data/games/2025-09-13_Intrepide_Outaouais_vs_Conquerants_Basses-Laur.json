@@ -1,0 +1,306 @@
+{
+  "date": "2025-09-13",
+  "home_team": "Conquérants Basses-Laur",
+  "away_team": "Intrepide Outaouais",
+  "home_score": 2,
+  "away_score": 1,
+  "players": [
+    {
+      "team": "Intrepide Outaouais",
+      "number": "31",
+      "name": "RAPHAEL MINEAULT",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "team": "Intrepide Outaouais",
+      "number": "33",
+      "name": "DEVEN CHARBONNEAU",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Intrepide Outaouais",
+      "number": "40",
+      "name": "LOIC BENOIT",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Intrepide Outaouais",
+      "number": "41",
+      "name": "NATHAN CHEN",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Intrepide Outaouais",
+      "number": "42",
+      "name": "JAYDEN PROULX",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 2
+    },
+    {
+      "team": "Intrepide Outaouais",
+      "number": "43",
+      "name": "ENZO RIVERA MOLDOVAN",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Intrepide Outaouais",
+      "number": "44",
+      "name": "NOLAN FRECHETTE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 2
+    },
+    {
+      "team": "Intrepide Outaouais",
+      "number": "45",
+      "name": "ADRIEN CÔTÉ",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 3
+    },
+    {
+      "team": "Intrepide Outaouais",
+      "number": "46",
+      "name": "BENJAMIN RAYMOND",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Intrepide Outaouais",
+      "number": "47",
+      "name": "NOAM BOIVIN GIGUÈRE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Intrepide Outaouais",
+      "number": "48",
+      "name": "MALIK BEAULNE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Intrepide Outaouais",
+      "number": "49",
+      "name": "BLAKE LINDSAY",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Intrepide Outaouais",
+      "number": "50",
+      "name": "MAVERICK HARDING",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Intrepide Outaouais",
+      "number": "51",
+      "name": "CARTER POIRIER",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 4
+    },
+    {
+      "team": "Intrepide Outaouais",
+      "number": "52",
+      "name": "VINCENT BOUCHER",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Intrepide Outaouais",
+      "number": "53",
+      "name": "DAMIEN PICHÉ",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Intrepide Outaouais",
+      "number": "54",
+      "name": "ELLIOT ST-CYR",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Conquérants Basses-Laur",
+      "number": "1",
+      "name": "THOMAS RIVAS-BÉLANGER",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "team": "Conquérants Basses-Laur",
+      "number": "2",
+      "name": "ELLIOT SAVOIE",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 3
+    },
+    {
+      "team": "Conquérants Basses-Laur",
+      "number": "3",
+      "name": "WILLIAM BAKER",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Conquérants Basses-Laur",
+      "number": "4",
+      "name": "MATHIS BOUCHER",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Conquérants Basses-Laur",
+      "number": "5",
+      "name": "ELIOTT LAPOINTE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 1
+    },
+    {
+      "team": "Conquérants Basses-Laur",
+      "number": "6",
+      "name": "ROSALIE GAGNE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Conquérants Basses-Laur",
+      "number": "7",
+      "name": "JAYDEN TOURANGUEAU",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Conquérants Basses-Laur",
+      "number": "8",
+      "name": "NOAH DELUCACALCE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 3
+    },
+    {
+      "team": "Conquérants Basses-Laur",
+      "number": "9",
+      "name": "JAYDEN BERNIER",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Conquérants Basses-Laur",
+      "number": "10",
+      "name": "NOAH DOUYON-LEBEAU",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Conquérants Basses-Laur",
+      "number": "11",
+      "name": "THÉO LAROCHE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Conquérants Basses-Laur",
+      "number": "12",
+      "name": "BENJAMIN BERTRAND",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Conquérants Basses-Laur",
+      "number": "13",
+      "name": "DYLAN BRIEN",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Conquérants Basses-Laur",
+      "number": "14",
+      "name": "CHRISTOPHE LAJEUNESSE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Conquérants Basses-Laur",
+      "number": "15",
+      "name": "JACOB VALIQUETTE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Conquérants Basses-Laur",
+      "number": "16",
+      "name": "BRENDAN RONDEAU PRONOVOST",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    }
+  ]
+}

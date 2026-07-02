@@ -1,0 +1,306 @@
+{
+  "date": "2025-09-13",
+  "home_team": "Dynamiques CCL",
+  "away_team": "National Montreal",
+  "home_score": 1,
+  "away_score": 4,
+  "players": [
+    {
+      "team": "National Montreal",
+      "number": "30",
+      "name": "XAVIER REID",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "team": "National Montreal",
+      "number": "39",
+      "name": "TYLER MAYSON PROULX",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "team": "National Montreal",
+      "number": "4",
+      "name": "RENAUD WILKINS",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "team": "National Montreal",
+      "number": "6",
+      "name": "LUISA SOEHL",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "team": "National Montreal",
+      "number": "7",
+      "name": "LUCA IACONO",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 2
+    },
+    {
+      "team": "National Montreal",
+      "number": "8",
+      "name": "MIKAËL LAURIN",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 3
+    },
+    {
+      "team": "National Montreal",
+      "number": "11",
+      "name": "PIERO MEROLA",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 3
+    },
+    {
+      "team": "National Montreal",
+      "number": "12",
+      "name": "ADAM LAMOUREUX",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 3
+    },
+    {
+      "team": "National Montreal",
+      "number": "13",
+      "name": "DYLAN CARBONE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "National Montreal",
+      "number": "14",
+      "name": "BRANDO VALENTINO MAMBRO",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "National Montreal",
+      "number": "15",
+      "name": "NOLAN PURDON",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "National Montreal",
+      "number": "16",
+      "name": "SIMON GAUVIN",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "National Montreal",
+      "number": "17",
+      "name": "MAXIME OSTROVSKIY",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "National Montreal",
+      "number": "18",
+      "name": "ZACK DESNOYERS",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "National Montreal",
+      "number": "37",
+      "name": "WILLIAM TREPANIER",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "National Montreal",
+      "number": "41",
+      "name": "SAMUEL DYOTTE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "National Montreal",
+      "number": "48",
+      "name": "MATHIEU AUDET",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Dynamiques CCL",
+      "number": "1",
+      "name": "CHARLES-ETIENNE LAROCHE",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "team": "Dynamiques CCL",
+      "number": "20",
+      "name": "BRYSEN BYRON",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Dynamiques CCL",
+      "number": "21",
+      "name": "GAVIN GREGOIRE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Dynamiques CCL",
+      "number": "22",
+      "name": "THOMAS LOISELLE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Dynamiques CCL",
+      "number": "23",
+      "name": "ALICK DOSTIE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Dynamiques CCL",
+      "number": "24",
+      "name": "ZACHARY DUFOUR",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Dynamiques CCL",
+      "number": "25",
+      "name": "JAKOB LECLERC",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Dynamiques CCL",
+      "number": "26",
+      "name": "MATTÉO VINCENT",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Dynamiques CCL",
+      "number": "27",
+      "name": "LOUIS TURCOT",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Dynamiques CCL",
+      "number": "28",
+      "name": "MAKSIM KOZICH",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Dynamiques CCL",
+      "number": "29",
+      "name": "BÉATRICE MASSE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Dynamiques CCL",
+      "number": "32",
+      "name": "LAURENT DION",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Dynamiques CCL",
+      "number": "33",
+      "name": "VINCENT NORMANDIN",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Dynamiques CCL",
+      "number": "34",
+      "name": "JUN-FENG LIU",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Dynamiques CCL",
+      "number": "37",
+      "name": "JACKSON ADAMS",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Dynamiques CCL",
+      "number": "39",
+      "name": "LUDOVIC LALONDE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    }
+  ]
+}

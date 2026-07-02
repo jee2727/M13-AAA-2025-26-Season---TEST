@@ -1,0 +1,306 @@
+{
+  "date": "2025-09-13",
+  "home_team": "Vert & Noir de l'École Fadette",
+  "away_team": "Lions Black Lac-St-Louis",
+  "home_score": 2,
+  "away_score": 4,
+  "players": [
+    {
+      "team": "Lions Black Lac-St-Louis",
+      "number": "29",
+      "name": "DEAN TSANOUSAS",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 2
+    },
+    {
+      "team": "Lions Black Lac-St-Louis",
+      "number": "23",
+      "name": "GAVIN BLACK",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 3
+    },
+    {
+      "team": "Lions Black Lac-St-Louis",
+      "number": "5",
+      "name": "JOSHUA ZHAO",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "team": "Lions Black Lac-St-Louis",
+      "number": "7",
+      "name": "CHRISTIAN LEROY",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "team": "Lions Black Lac-St-Louis",
+      "number": "9",
+      "name": "ELIE ROSSDEUTSCHER",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Lions Black Lac-St-Louis",
+      "number": "11",
+      "name": "ADAM COMEAU",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Lions Black Lac-St-Louis",
+      "number": "13",
+      "name": "SIMON WANG",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Lions Black Lac-St-Louis",
+      "number": "15",
+      "name": "ANGUS FLYNN",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Lions Black Lac-St-Louis",
+      "number": "17",
+      "name": "RAPHAEL LETARTE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Lions Black Lac-St-Louis",
+      "number": "19",
+      "name": "LUDOVIC SOUCIE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Lions Black Lac-St-Louis",
+      "number": "23",
+      "name": "MASON SACKS",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Lions Black Lac-St-Louis",
+      "number": "25",
+      "name": "XAVIER DAMPHOUSSE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Lions Black Lac-St-Louis",
+      "number": "27",
+      "name": "EZECHIEL CARBONNEAU-FOPA",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Lions Black Lac-St-Louis",
+      "number": "29",
+      "name": "LIAM GARLAND",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Lions Black Lac-St-Louis",
+      "number": "31",
+      "name": "ALEXANDRE ZORKA",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Lions Black Lac-St-Louis",
+      "number": "33",
+      "name": "ROBERT HUANG",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "29",
+      "name": "NICOLAS PROULX",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "30",
+      "name": "ALEXY GILEAU",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "2",
+      "name": "ELIOTT DESCARRIES",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "3",
+      "name": "TYLER LAVENTURE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "4",
+      "name": "ELLIOT POTVIN",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 3
+    },
+    {
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "6",
+      "name": "LAMBERT SAUVE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "8",
+      "name": "EVE O'CONNOR",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "9",
+      "name": "MANNY MORIN",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "10",
+      "name": "MATHEO ST-PIERRE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "11",
+      "name": "THOMAS MIRON",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "12",
+      "name": "JACOB LOISEAU",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "13",
+      "name": "CAMPBELL O'CONNOR",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "14",
+      "name": "SAMUEL HUOT",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 3
+    },
+    {
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "15",
+      "name": "CHARLIE DUMAINE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 3
+    },
+    {
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "16",
+      "name": "THÉO CHAMBERLAND",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 3
+    },
+    {
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "17",
+      "name": "CHARLES FOURNIER",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Vert & Noir de l'École Fadette",
+      "number": "18",
+      "name": "CHARLES LABONTE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    }
+  ]
+}
