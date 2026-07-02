@@ -16,6 +16,8 @@ them as JSON, and publish a live stats website on **GitHub Pages**.
 ├── docs/                    ← GitHub Pages website source
 │   ├── index.html
 │   ├── css/style.css
+│   ├── data/
+│   │   └── games/           ← games copied here for deployment
 │   └── js/
 │       ├── app.js
 │       └── games-index.js        ← rebuilt automatically by CI
@@ -25,6 +27,7 @@ them as JSON, and publish a live stats website on **GitHub Pages**.
 │   ├── build_index.py            ← rebuild docs/js/games-index.js & stats
 │   ├── stats_aggregator.py        ← compile stats from all games
 │   ├── data_validator.py          ← validate game JSON structure
+│   ├── test_integration.py        ← integration tests for the workflow
 │   └── requirements.txt
 ├── STATS_STRUCTURE.md       ← detailed architecture & data flow
 └── .github/workflows/
@@ -114,7 +117,7 @@ This script will:
 - Regenerate `data/aggregated_stats.json` with compiled player stats
 - Validate all JSON files for structure correctness
 
-### 5. Validate your game data
+### 6. Validate your game data
 
 To check that all game JSON files have the correct structure:
 
@@ -128,7 +131,23 @@ Use `--strict` to fail with an error code if any issues are found:
 python scripts/data_validator.py --strict
 ```
 
-### 6. Preview the website locally
+### 7. Run integration tests
+
+To verify the entire stats extraction and website workflow is working:
+
+```bash
+python scripts/test_integration.py
+```
+
+This will verify:
+- All game JSON files are valid
+- Games index is generated correctly
+- Aggregated stats are compiled
+- Game files are copied to docs/data/games
+- Website assets are present
+- Paths are correct for GitHub Pages deployment
+
+### 8. Preview the website locally
 
 Open `docs/index.html` in your browser, **or** serve it with any static server:
 
@@ -211,7 +230,8 @@ The live URL will be:
 | `extract_stats.py` | Extract player stats from game-sheet PDFs (LHEQ/Spordle) and save as JSON |
 | `stats_aggregator.py` | Compile player and team stats across all games into `data/aggregated_stats.json` |
 | `data_validator.py` | Validate JSON files for correct structure and data types |
-| `build_index.py` | Rebuild `docs/js/games-index.js` and regenerate aggregated stats |
+| `test_integration.py` | Run integration tests to verify entire workflow is working |
+| `build_index.py` | Rebuild `docs/js/games-index.js`, regenerate aggregated stats, and copy games to `docs/data/games` |
 | `lheq_pdf_downloader.py` | Download PDF game sheets directly from LHEQ game schedule pages |
 
 ---
