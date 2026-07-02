@@ -10,7 +10,7 @@
 /* =========================================================
    Constants / config
    ========================================================= */
-const GAMES_BASE = "../data/games/";
+const GAMES_BASE = "data/games/";
 const LAST_UPDATED_EL = document.getElementById("last-updated");
 const TOTALS_BODY     = document.getElementById("totals-body");
 const GAMES_CONTAINER = document.getElementById("games-container");

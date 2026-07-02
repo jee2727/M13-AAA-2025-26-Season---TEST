@@ -1,0 +1,315 @@
+{
+  "date": "2025-09-13",
+  "home_team": "Lévis QC",
+  "away_team": "Blizzard SDF",
+  "home_score": 3,
+  "away_score": 1,
+  "players": [
+    {
+      "team": "Blizzard SDF",
+      "number": "1",
+      "name": "ROMIE BERGERON",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Blizzard SDF",
+      "number": "30",
+      "name": "JAKE KELLY",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 1
+    },
+    {
+      "team": "Blizzard SDF",
+      "number": "7",
+      "name": "WILLIAM CLEARY",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "team": "Blizzard SDF",
+      "number": "8",
+      "name": "SIMON-OLIVIER CHAREST",
+      "goals": 0,
+      "assists": 1,
+      "points": 1,
+      "pim": 2
+    },
+    {
+      "team": "Blizzard SDF",
+      "number": "9",
+      "name": "EMILE BRIERE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Blizzard SDF",
+      "number": "10",
+      "name": "EDWIN GAUDY",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Blizzard SDF",
+      "number": "11",
+      "name": "MALCOLM CLOUTIER",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Blizzard SDF",
+      "number": "12",
+      "name": "ALEX COUTURE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Blizzard SDF",
+      "number": "13",
+      "name": "LUCAS BÉDARD",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Blizzard SDF",
+      "number": "14",
+      "name": "SEAN LEGARE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Blizzard SDF",
+      "number": "16",
+      "name": "OLIVIER BERTRAND",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Blizzard SDF",
+      "number": "17",
+      "name": "CHARLES-ELI BERGERON",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 3
+    },
+    {
+      "team": "Blizzard SDF",
+      "number": "18",
+      "name": "PHILIPPE ROCHON",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 3
+    },
+    {
+      "team": "Blizzard SDF",
+      "number": "19",
+      "name": "THOMAS LETOURNEAU",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Blizzard SDF",
+      "number": "20",
+      "name": "TOMMY MÉNARD",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Blizzard SDF",
+      "number": "21",
+      "name": "CHARLES POULIN",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Blizzard SDF",
+      "number": "25",
+      "name": "ELLIOTT-JAMES BERNIER",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Lévis QC",
+      "number": "30",
+      "name": "MALCOM FOURNIER",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Lévis QC",
+      "number": "31",
+      "name": "RAPHAËL ROBERGE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Lévis QC",
+      "number": "3",
+      "name": "FELIX TURMEL",
+      "goals": 0,
+      "assists": 1,
+      "points": 1,
+      "pim": 1
+    },
+    {
+      "team": "Lévis QC",
+      "number": "4",
+      "name": "LOUIS-PHILIPPE BOUFFARD",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "team": "Lévis QC",
+      "number": "6",
+      "name": "ÉTIENNE FRADETTE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Lévis QC",
+      "number": "7",
+      "name": "MAXENCE BLAIS",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Lévis QC",
+      "number": "8",
+      "name": "ELIOT GENDRON",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Lévis QC",
+      "number": "9",
+      "name": "THOMAS LESSARD",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "team": "Lévis QC",
+      "number": "10",
+      "name": "MÉDÉRIC MENARD",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Lévis QC",
+      "number": "11",
+      "name": "GABRIEL GUILLEMETTE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Lévis QC",
+      "number": "12",
+      "name": "ARNAUD CHAMBERS-ALAIN",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Lévis QC",
+      "number": "13",
+      "name": "WILLIAM DUGUAY",
+      "goals": 1,
+      "assists": 1,
+      "points": 2,
+      "pim": 0
+    },
+    {
+      "team": "Lévis QC",
+      "number": "14",
+      "name": "CHARLES DUVAL",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Lévis QC",
+      "number": "16",
+      "name": "ÉMILE PELLETIER",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Lévis QC",
+      "number": "17",
+      "name": "MILAN BÉLANGER",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Lévis QC",
+      "number": "18",
+      "name": "HUBERT LEMAY",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Lévis QC",
+      "number": "19",
+      "name": "ALEX-ANTOINE LEMAY",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    }
+  ]
+}

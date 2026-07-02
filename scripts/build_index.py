@@ -6,20 +6,22 @@ Scan data/games/ for all *.json files and regenerate docs/js/games-index.js
 so that the GitHub Pages site knows which game files to load.
 
 This script also:
-1. Validates all game JSON files
-2. Regenerates aggregated stats (data/aggregated_stats.json)
+1. Regenerates aggregated stats (data/aggregated_stats.json)
+2. Copies game files to docs/data/games/ for GitHub Pages deployment
 
 Run this script after adding or removing game JSON files:
     python scripts/build_index.py
 """
 
 import json
+import shutil
 import sys
 from pathlib import Path
 
 REPO_ROOT  = Path(__file__).resolve().parent.parent
 GAMES_DIR  = REPO_ROOT / "data" / "games"
 INDEX_FILE = REPO_ROOT / "docs" / "js" / "games-index.js"
+DOCS_GAMES_DIR = REPO_ROOT / "docs" / "data" / "games"
 
 HEADER = """\
 /**
@@ -47,6 +49,22 @@ def build_games_index(game_files: list) -> None:
     print(f"✓ Written {INDEX_FILE}  ({len(game_files)} game(s))")
     for name in game_files:
         print(f"   - {name}")
+
+
+def copy_games_to_docs() -> None:
+    """Copy game JSON files to docs/data/games/ for GitHub Pages deployment."""
+    DOCS_GAMES_DIR.parent.mkdir(parents=True, exist_ok=True)
+    
+    # Remove old docs/data/games directory if it exists
+    if DOCS_GAMES_DIR.exists():
+        shutil.rmtree(DOCS_GAMES_DIR)
+    
+    # Copy entire games directory
+    shutil.copytree(GAMES_DIR, DOCS_GAMES_DIR)
+    
+    print(f"\n✓ Copied game files to {DOCS_GAMES_DIR}")
+    game_count = len(list(DOCS_GAMES_DIR.glob("*.json")))
+    print(f"   {game_count} file(s) copied for deployment")
 
 
 def build_aggregated_stats(game_files: list) -> None:
@@ -83,7 +101,10 @@ def main() -> None:
     print("=== Building Games Index ===\n")
     build_games_index(game_files)
     
-    print("\n=== Building Aggregated Stats ===\n")
+    print("\n=== Copying Games to Docs ===")
+    copy_games_to_docs()
+    
+    print("\n=== Building Aggregated Stats ===")
     try:
         build_aggregated_stats(game_files)
     except Exception as e:
