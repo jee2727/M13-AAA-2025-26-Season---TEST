@@ -7,10 +7,16 @@ individual player statistics (goals, assists, points, penalty minutes).
 The result is saved as a JSON file under data/games/.
 
 Usage:
-    python scripts/extract_stats.py <pdf_url_or_local_path> [--game-id GAME_ID]
+    python scripts/extract_stats.py <source> [--game-id GAME_ID]
+
+Where <source> can be:
+    • A direct PDF URL: https://example.spordle.com/game/12345/sheet.pdf
+    • An LHEQ game page URL: https://masculin.lheq.ca/fr/schedule/614322?gameId=614322
+    • A local file path: ./sheet.pdf
 
 Examples:
     python scripts/extract_stats.py https://example.spordle.com/game/12345/sheet.pdf
+    python scripts/extract_stats.py https://masculin.lheq.ca/fr/schedule/614322?gameId=614322
     python scripts/extract_stats.py ./sheet.pdf --game-id 2025-10-05_TeamA_vs_TeamB
 """
 
@@ -21,6 +27,7 @@ import sys
 import tempfile
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import urlparse, parse_qs
 
 import pdfplumber
 import requests
@@ -33,13 +40,63 @@ DATA_DIR = REPO_ROOT / "data" / "games"
 
 
 # ---------------------------------------------------------------------------
-# PDF Download
+# LHEQ URL handling
 # ---------------------------------------------------------------------------
 
+def extract_game_id_from_url(url: str) -> str | None:
+    """Extract game ID from LHEQ URL or return None."""
+    parsed = urlparse(url)
+    
+    # Try query parameters first
+    if parsed.query:
+        qs = parse_qs(parsed.query)
+        if "gameId" in qs:
+            return qs["gameId"][0]
+    
+    # Try path: /fr/schedule/614322
+    match = re.search(r'/schedule/(\d+)', parsed.path)
+    if match:
+        return match.group(1)
+    
+    return None
+
+
+def resolve_lheq_pdf_url(game_id: str) -> str:
+    """
+    Attempt to construct a PDF download URL from an LHEQ game ID.
+    
+    LHEQ CDN URL patterns (may vary by region/language):
+        • https://lheq-sport.azureedge.net/pdfs/{gameId}_gamesheet.pdf
+        • https://lheq-sport.azureedge.net/pdfs/gamesheet_{gameId}.pdf
+    """
+    # Try the most common pattern first
+    pdf_url = f"https://lheq-sport.azureedge.net/pdfs/{game_id}_gamesheet.pdf"
+    return pdf_url
+
+
 def download_pdf(url: str) -> Path:
-    """Download a PDF from *url* to a temporary file and return its path."""
+    """
+    Download a PDF from *url* to a temporary file and return its path.
+    
+    If *url* is an LHEQ game page URL, automatically extract the game ID
+    and construct the PDF download URL.
+    """
+    # Check if this is an LHEQ game page URL
+    if "lheq.ca" in url and "/schedule/" in url:
+        print(f"Detected LHEQ game page URL")
+        game_id = extract_game_id_from_url(url)
+        if game_id:
+            print(f"  Game ID: {game_id}")
+            url = resolve_lheq_pdf_url(game_id)
+            print(f"  Resolved PDF URL: {url}")
+        else:
+            print(f"  Could not extract game ID, will try page URL directly")
+    
     print(f"Downloading PDF from {url} …")
-    response = requests.get(url, timeout=30)
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+    }
+    response = requests.get(url, timeout=30, headers=headers)
     response.raise_for_status()
     suffix = ".pdf"
     tmp = tempfile.NamedTemporaryFile(delete=False, suffix=suffix)
@@ -307,7 +364,12 @@ def main():
     )
     parser.add_argument(
         "source",
-        help="URL of the PDF to download, or local file path.",
+        help=(
+            "Source to extract from. Can be:\n"
+            "  • Direct PDF URL (e.g., https://example.com/sheet.pdf)\n"
+            "  • LHEQ game page (e.g., https://masculin.lheq.ca/fr/schedule/614322?gameId=614322)\n"
+            "  • Local file path (e.g., ./sheet.pdf)"
+        ),
     )
     parser.add_argument(
         "--game-id",
@@ -315,7 +377,7 @@ def main():
         help=(
             "Optional identifier used as the JSON filename "
             "(e.g. 2025-10-05_TeamA_vs_TeamB).  "
-            "Defaults to a timestamp-based name."
+            "Defaults to auto-generated name from date and teams."
         ),
     )
     args = parser.parse_args()

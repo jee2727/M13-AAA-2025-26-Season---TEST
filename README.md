@@ -38,21 +38,45 @@ pip install -r scripts/requirements.txt
 
 ### 2. Extract stats from a game-sheet PDF
 
-Pass a **URL** (the script downloads the PDF automatically) or a **local file
-path**:
+The script supports three types of sources:
+
+#### From an LHEQ game page (recommended)
+
+Pass the LHEQ schedule URL directly – the script will auto-detect the game ID and fetch the PDF:
 
 ```bash
-# From a URL
-python scripts/extract_stats.py https://example.spordle.com/game/12345/sheet.pdf
-
-# From a local file
-python scripts/extract_stats.py ~/Downloads/game_sheet.pdf
-
-# With a custom game ID (used as the JSON filename)
-python scripts/extract_stats.py <url_or_path> --game-id 2025-10-05_Bears_vs_Hawks
+# Game #1000 (gameId 614322)
+python scripts/extract_stats.py "https://masculin.lheq.ca/fr/schedule/614322?gameId=614322"
 ```
 
-The extracted stats are saved to `data/games/<game-id>.json`.
+The script automatically:
+1. Extracts the game ID from the URL
+2. Constructs the PDF download URL
+3. Downloads and parses the PDF
+4. Saves the extracted stats to `data/games/`
+
+#### From a direct PDF URL
+
+```bash
+python scripts/extract_stats.py https://example.spordle.com/game/12345/sheet.pdf
+```
+
+#### From a local PDF file
+
+```bash
+python scripts/extract_stats.py ~/Downloads/game_sheet.pdf
+```
+
+#### With a custom game ID
+
+For any source, you can optionally specify how the output JSON file is named:
+
+```bash
+python scripts/extract_stats.py "https://masculin.lheq.ca/fr/schedule/614322?gameId=614322" \
+  --game-id "2025-10-04_Game1000"
+```
+
+Without `--game-id`, the script auto-generates a filename like `2025-10-04_away_vs_home.json`.
 
 ### 3. Rebuild the website index
 
@@ -134,5 +158,21 @@ The live URL will be:
 | Package | Purpose |
 |---------|---------|
 | `pdfplumber` | Extract text and tables from PDF game sheets |
-| `requests` | Download PDFs from URLs |
+| `requests` | Download PDFs from URLs (including LHEQ game pages) |
+
+---
+
+## Supported game sources
+
+The `extract_stats.py` script supports:
+
+1. **LHEQ game page URLs** (e.g., `https://masculin.lheq.ca/fr/schedule/614322?gameId=614322`)
+   - Auto-extracts the game ID and fetches the PDF from the LHEQ CDN
+   - Supported regions: `masculin.lheq.ca` (and `feminin.lheq.ca`, etc.)
+
+2. **Direct PDF URLs** (any HTTPS link ending in `.pdf`)
+   - Spordle game sheets, Dropbox links, etc.
+
+3. **Local PDF files** (relative or absolute paths)
+   - Useful for offline processing or testing
 
