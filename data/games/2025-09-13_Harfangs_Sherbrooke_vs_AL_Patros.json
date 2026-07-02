@@ -1,0 +1,315 @@
+{
+  "date": "2025-09-13",
+  "home_team": "Harfangs Sherbrooke",
+  "away_team": "AL Patros",
+  "home_score": 4,
+  "away_score": 3,
+  "players": [
+    {
+      "team": "Harfangs Sherbrooke",
+      "number": "1",
+      "name": "ELOAN DUCHESNE",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "team": "Harfangs Sherbrooke",
+      "number": "30",
+      "name": "THOMAS TURMEL",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Harfangs Sherbrooke",
+      "number": "2",
+      "name": "PHILIPPE GOSSELIN",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "team": "Harfangs Sherbrooke",
+      "number": "3",
+      "name": "JAYCE BAMBERRE",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "team": "Harfangs Sherbrooke",
+      "number": "4",
+      "name": "WILLIAM FOWLIS",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "team": "Harfangs Sherbrooke",
+      "number": "5",
+      "name": "LIAM NADEAU",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Harfangs Sherbrooke",
+      "number": "6",
+      "name": "LIAM GAGNÉ",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Harfangs Sherbrooke",
+      "number": "7",
+      "name": "LUDOVICK ROY",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Harfangs Sherbrooke",
+      "number": "8",
+      "name": "MALIK CASAVANT",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Harfangs Sherbrooke",
+      "number": "9",
+      "name": "ANTHONY GARIEPY",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Harfangs Sherbrooke",
+      "number": "10",
+      "name": "FELIX NOËL",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Harfangs Sherbrooke",
+      "number": "11",
+      "name": "ANTOINE DOYON",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Harfangs Sherbrooke",
+      "number": "12",
+      "name": "ROMAIN DAVIGNON",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Harfangs Sherbrooke",
+      "number": "13",
+      "name": "DYLAN POIRIER",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Harfangs Sherbrooke",
+      "number": "15",
+      "name": "ZITONG WANG",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Harfangs Sherbrooke",
+      "number": "17",
+      "name": "WILLIAM PROVENCAL",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "Harfangs Sherbrooke",
+      "number": "19",
+      "name": "THOMAS D'ARAGON",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AL Patros",
+      "number": "1",
+      "name": "ELI DESROCHERS",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "team": "AL Patros",
+      "number": "33",
+      "name": "LOUIS-FÉLIX GAGNE",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "team": "AL Patros",
+      "number": "4",
+      "name": "ÉLOI CYR",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0
+    },
+    {
+      "team": "AL Patros",
+      "number": "7",
+      "name": "RAPHAEL PLOUIRDE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AL Patros",
+      "number": "10",
+      "name": "OLIVIER DESJARDINS",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AL Patros",
+      "number": "11",
+      "name": "SAMUEL LECLAIR",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AL Patros",
+      "number": "13",
+      "name": "FÉLIX PELLETIER",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AL Patros",
+      "number": "17",
+      "name": "TOM DURETE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AL Patros",
+      "number": "19",
+      "name": "ELLIOT SIROIS",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AL Patros",
+      "number": "37",
+      "name": "ÉLOI D'ASTOUS",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AL Patros",
+      "number": "44",
+      "name": "ÉMILE MORIN",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AL Patros",
+      "number": "71",
+      "name": "JORDAN MURRAY",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AL Patros",
+      "number": "72",
+      "name": "LOÏC LEVESQUE",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AL Patros",
+      "number": "77",
+      "name": "MAREK DUMAS",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AL Patros",
+      "number": "79",
+      "name": "ÉLI BRISEBOIS",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AL Patros",
+      "number": "86",
+      "name": "NAYA BELIVEAU",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    },
+    {
+      "team": "AL Patros",
+      "number": "90",
+      "name": "DAMIEN GAGNON",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0
+    }
+  ]
+}
